@@ -27,3 +27,24 @@
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+.unorder {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+.list{
+    display: inline;
+    float: right;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+}
