@@ -3,3 +3,12 @@
     width:100px;
     display:inline;
 }
+
+h1 .caption { 
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
