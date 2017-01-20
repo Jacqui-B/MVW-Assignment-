@@ -4,7 +4,7 @@
     display:inline;
 }
 
-h1  { 
+.homepage  { 
     font-size: 60px;
     color: orange;
     text-align: center;
@@ -12,11 +12,12 @@ h1  {
 
 }
 
-p { 
+.para { 
     text-align: center;
 }
 
-li {
+.list {
     font-size: 30px;
     text-align: center;
+    list-style-type: none;
 }
