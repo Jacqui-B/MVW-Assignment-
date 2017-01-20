@@ -80,3 +80,12 @@ header > h2{
     position: absolute;
     top:13%;
 }
+
+.cathy-navbar-header {
+    position: absolute;
+    top: 7%;
+    right: 48%;
+    font-weight: lighter; 
+    color: #fff;
+    font-size:29px;
+}
