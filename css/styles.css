@@ -1,8 +1,8 @@
-/*.portrait {
+.portrait {
     border:2px solid #DDD;
     width: 100px;
     display:inline;
-}*/
+}
 .homepage  { 
     font-size: 60px;
     color: orange;
@@ -18,6 +18,15 @@
     list-style-type: none;
     float: right;
 }
+
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .photo {
     width: 100%;
     padding-top: 15px;
@@ -62,4 +71,6 @@ header > h2{
 .hero-image {
     width: 100%;
     height: 120%;
+    overflow: hidden;
 }
+
