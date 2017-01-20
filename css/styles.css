@@ -1,50 +1,65 @@
-.portrait {
+/*.portrait {
     border:2px solid #DDD;
-    width:100px;
+    width: 100px;
     display:inline;
-}
-
+}*/
 .homepage  { 
     font-size: 60px;
     color: orange;
     text-align: center;
     margin-right: 20px;
-
 }
-
 .para, .image-title{ 
     text-align: center;
 }
-
 .list {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     list-style-type: none;
+    float: right;
 }
-
 .photo {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 10px;
 }
-
 .unorder {
     position: fixed;
-    top: 0;
+    top: 2%;
     width: 100%;
     overflow: hidden;
-
 }
-.list{
-    display: inline;
-    float: right;
-}
-
 li a:hover {
-    background-color: #111;
+    background-color: orange;
+}
+nav > .logo{
+    position:relative;
+    height: 100px;
+}
+nav > .logo img{
+    height:100%;
 }
 
-.logo {
-    width: 500px;
-    height: auto;
+.head {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: 400px;
+    margin:0 auto;
+    height: 300px;
+    background-size: cover;    
+}
+
+header > h2{
+    font-size: 45px;
+    color: orange;
+    position: absolute;
+    margin: 0;
+    left: 544px;
+    top: 350px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 120%;
 }
