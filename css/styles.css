@@ -4,7 +4,7 @@
     display:inline;
 }
 
-h1 .caption { 
+h1  { 
     font-size: 60px;
     color: orange;
     text-align: center;
@@ -12,3 +12,11 @@ h1 .caption {
 
 }
 
+p { 
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+    text-align: center;
+}
